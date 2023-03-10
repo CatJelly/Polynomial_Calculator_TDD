@@ -40,4 +40,21 @@ public class CalcTests {
     void test5() {
         assertThat(Calculator.run("50 - 30")).isEqualTo(20); // 구현
     }
+
+    @Test
+    @DisplayName("3 - 1 == 2")
+    void test6() {
+        assertThat(Calculator.run("3 - 1")).isEqualTo(2); // 구현
+    }
+
+    @Test
+    @DisplayName("100 - 20 == 80")
+    void test7() {
+        assertThat(Calculator.run("100 - 20")).isEqualTo(80); // 구현
+    }
+    @Test
+    @DisplayName("10 + 20 + 30 == 60")
+    void test8() {
+        assertThat(Calculator.run("10 + 20 + 30")).isEqualTo(60); // 구현
+    }
 }
